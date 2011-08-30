@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick
 Tags: youtube, video, player, shortcode, custom link
 Requires at least: 3.1
 Tested up to: 3.2.1
-Stable tag: 1.7
+Stable tag: 1.8
 
 A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress.
 
@@ -13,7 +13,7 @@ A simple YouTube shortcode with basic options & general improvement over the def
 
 The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in your posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: *it's fun and good for you*!
 
-The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are **now 8 parameters** available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick references.
+The code that is generated always allows scripting access and forces the use of the *ActionScript 3* engine (*to be sure everybody has the same settings*). There are **now 9 parameters** available through a configuration page (*reach it from the Settings Menu*). It has been initially created (*& tested*) on a *Wordpress 3.2.1* live installation according to the specifications of the official *YouTube API*: see the [YouTube Embedded Player Parameters](http://pxsol.info/naqwb2 "YouTube Embedded Player Parameters - YouTube APIs and Tools - Google Code") page for quick references.
 
 There are many things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
 
@@ -43,11 +43,11 @@ Oh, I'm *soooo* sorry for you. *Really*. Maybe it's time for you to give up, don
 
 = You're a french speaking bloke, *right*? So where is the translation? =
 
-It's quite simple: I just have to learn how to do it properly... You can bet the french language will be added soon in a next release.
+It's quite simple: I just have to learn how to do it properly... You can bet the french language will be added in the version 2.0.
 
 = I got an indecent proposal idea & doesn't see anything related to this here... What could I do? =
 
-Your best chance for anything in relation with this plugin is to leave a detailed message on [the plugin announcement blog post](http://pxsol.info/qHCl7L "Les nouvelles du Pixel Solitaire » Enhanced YouTube Shortcode").
+Open up a window & shout it out loud. If you try hard enough maybe I'll hear it...
 
 = I think you're a genius & I want you to be the father of my children. =
 
@@ -61,11 +61,16 @@ Your best chance for anything in relation with this plugin is to leave a detaile
 
  == Upgrade Notice ==
  
-= 1.7 =
-New «Autoplay» & «Force HD» features; Minor logical & visual improvements; Please UPGRADE IMMEDIATELY.
+= 1.8 =
+New «Theme» feature; Code generation refinement; Please UPGRADE IMMEDIATELY.
 
 
 == Changelog ==
+
+= 1.8 =
+* New «Theme» feature
+* Code generation refinement
+* Version 2.0 groundwork
 
 = 1.7 =
 * New «Autoplay» & «Force HD» features
@@ -94,9 +99,7 @@ New «Autoplay» & «Force HD» features; Minor logical & visual improvements; P
 * Translation of the manual code into a plugin form.
 
 = 1.0 =
-* The initial code is released as a snippet for manual inclusion into the "*functions.php*" page, in this post:
-
-[http://pxsol.info/p0wOuK](http://pxsol.info/p0wOuK "Custom YouTube In WordPress – Revisited || Les nouvelles du Pixel Solitaire")
+* The core is released as a manual inclusion into the "*functions.php*" page.
 
 
  == TO DO ==
@@ -116,4 +119,4 @@ Not necessarily in that order ;-)
 
 == License ==
 
-This plugin (*and all its related files*) falls under the [GNU GENERAL PUBLIC LICENSE](http://pxsol.info/rohPSr "GNU GENERAL PUBLIC LICENSE || Les nouvelles du Pixel Solitaire") *v3*. 
+This plugin (*and all its related files*) falls under the **GNU GENERAL PUBLIC LICENSE** v**3**. 
