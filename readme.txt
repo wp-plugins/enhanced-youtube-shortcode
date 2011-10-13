@@ -22,7 +22,7 @@ There are many things on the **To Do** list (*see **Other Notes***) so you can e
 
 1.  Extract the **/enhanced-youtube-shortcode/** folder from the downloaded file.
 
-2.  Upload this extracted folder & its content in your *Wordpress* plugin directory.
+2.  Upload this extracted folder & its content in your *Wordpress* plugins directory.
 
 3.  Go to "**Plugins=>Enhanced YouTube Shortcode**" & activate the plugin.
 
