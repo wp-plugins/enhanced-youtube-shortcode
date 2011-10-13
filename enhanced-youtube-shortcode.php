@@ -120,7 +120,7 @@ if(!class_exists('pxsol_youtube_plugin')) {
 		// Settings page creation
 		// ////////////////////////
 		function pxsol_youtube_settings_page() {
-			require_once(WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/the-display.php');
+			require_once(WP_PLUGIN_DIR . '/enhanced-youtube-shortcode/the-display.txt');
 		}
 
 		// Admin bar's buttons
