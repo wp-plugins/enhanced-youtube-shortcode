@@ -1,3 +1,14 @@
+<?php
+/*
+Plugin Name: Enhanced YouTube Shortcode
+Plugin URI: http://pixel-solitaire.com/telechargements/enhanced-youtube-shortcode/
+Description: A simple <em>YouTube</em> shortcode with basic options & general improvement over the default coming with <em>Wordpress</em>. Activate then click "<strong>Settings=>Enhanced YouTube</strong>" in order to edit the player options & more infos. <strong>Usage sample:</strong> [youtube_video id="abxjy-emFvs"]
+Version: 1.9
+Author: le Pixel Solitaire
+Author URI: http://pixel-solitaire.com/
+License: GNU General Public License (v3)
+*/
+?>
 			<div id="pxsol_youtube" class="wrap">
 				<h2 title="Enhanced YouTube Shortcode for WordPress">Enhanced YouTube Shortcode <i>v1.9</i></h2>
 				<div class="pxsol_options pxsol_top"><div class="pxsol_bottom"><div class="pxsol_main">
