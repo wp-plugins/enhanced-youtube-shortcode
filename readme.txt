@@ -1,10 +1,10 @@
 === Enhanced YouTube Shortcode ===
 Contributors: Le-Pixel-Solitaire
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick%40pixel%2dsolitaire%2ecom&lc=CA&item_name=Le%20Pixel%20Solitaire&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
-Tags: youtube, shortcode, video, custom link, player
+Tags: youtube, video, player, shortcode, custom, link, clip
 Requires at least: 3.1
-Tested up to: 3.2.1
-Stable tag: 1.9
+Tested up to: 3.3.1
+Stable tag: 1.9.1
 
 A simple YouTube shortcode with basic options & general improvement over the default coming with Wordpress.
 
@@ -18,17 +18,17 @@ The code that is generated always allows scripting access and forces the use of 
 There are many things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
 
 
-== Installation ==
+== Manual Installation ==
 
 1.  Extract the **/enhanced-youtube-shortcode/** folder from the downloaded file.
 
 2.  Upload this extracted folder & its content in your *Wordpress* plugins directory.
 
-3.  Go to "**Plugins=>Enhanced YouTube Shortcode**" & activate the plugin.
+3.  Go to "**Plugins => Enhanced YouTube Shortcode**" to activate the plugin.
 
-4.  Go to "**Settings=>Enhanced YouTube**" to tweak player options.
+4.  Go to "**Settings => Enhanced YouTube**" to tweak the player options.
 
-5.  Now use  **[youtube_video id="abxjy-emFvs"]** kind of shortcode.
+5.  Now use  **[youtube_video id="uAOLzRhKF9c"]** kind of shortcode.
 
 
 == Frequently Asked Questions ==
@@ -61,11 +61,16 @@ Open up a window & shout it out loud. If you try hard enough maybe I'll hear it.
 
  == Upgrade Notice ==
  
-= 1.9 =
-Minor update: New «infos before playing» option & code source work. PLEASE UPGRADE for the ultimate experience.
+= 1.9.1 =
+Minor HTML errors fixed & Visual update. PLEASE UPGRADE for the ultimate experience.
 
 
 == Changelog ==
+
+= 1.9.1 =
+* Minor HTML errors fixed
+* Translation preparation
+* Visual update
 
 = 1.9 =
 * New «infos before playing» feature
@@ -110,6 +115,8 @@ Minor update: New «infos before playing» option & code source work. PLEASE UPG
  == TO DO ==
  
 *  Develop "ratio" option for height & width
+
+*  French translation.
 
 *  Even more option switchs.
 
