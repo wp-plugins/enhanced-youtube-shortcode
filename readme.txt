@@ -3,19 +3,19 @@ Contributors: Le-Pixel-Solitaire
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=erick%40pixel%2dsolitaire%2ecom&lc=CA&item_name=Le%20Pixel%20Solitaire&currency_code=CAD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted
 Tags: youtube, video, player, shortcode, custom, link, clip
 Requires at least: 3.1
-Tested up to: 3.3.1
-Stable tag: 2.0
+Tested up to: 3.9.1
+Stable tag: 2.0.1
 
-A simple YouTube shortcode with several options & general improvement over the default one of Wordpress.
+A quick & simple way to include YouTube videos in your Wordpress posts with a neat centralized options panel to manage the player's output.
 
 
 == Description ==
 
 The "**Enhanced YouTube Shortcode**" plugin provides a quick & easy way to use a custom *YouTube&copy;* player in your posts and/or pages without having to get your hands dirty in the source codes! The main advantage over the way *Wordpress* is working this out is the possibility of changing the display of all players in one single spot instead of having to do it manually at every places it has been set. But most importantly: it's fun and good for you! (*check out the screenshot for a sample of all offered options!*)
 
-Now with **more than 10 parameters** available through a simple configuration page (*reach it from the Settings Menu*), the code that is generated always allows scripting access and forces the use of the ActionScript 3 engine (*see **Other Notes** for limitations*). It has been initially created (*& tested*) on a *Wordpress 3.3.1* live installation according to the specifications of the official [YouTube Embed Player API Parameters](http://code.google.com/intl/fr-CA/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters - Google Code").
+Now with **more than 10 parameters** available through a simple configuration page (*reach it from the Settings Menu*), the code that is generated always allows scripting access and forces the use of the ActionScript 3 engine (*see **Other Notes** for limitations*). It has been initially created on a *Wordpress 3.2.1* live installation & recently tested on a *Wordpress 3.9.1* live installation with success, according to the specifications of the official [YouTube Embed Player API Parameters](http://code.google.com/intl/fr-CA/apis/youtube/player_parameters.html "YouTube Embedded Player Parameters - Google Code").
 
-There are a couple of things on the **To Do** list (*see **Other Notes***) so you can expect updates soon!
+There are a couple of things on the **To Do** list (*see **Other Notes***) & the developer is back on track with this project so you can expect a major upgrade soon (*summer 2014*)!
 
 
 == Installation ==
@@ -46,7 +46,7 @@ Oh, I'm *soooo* sorry for you. *Really*. Maybe it's time for you to give up, don
 
 = You're a french speaking bloke, *right*? So where is the translation? =
 
-It's quite simple: I'm learning how to do it properly... The french language is on its way now: you can expect it in a near future
+It's quite simple: I'm learning how to do it properly... The french language is on its way now: you can expect it in a near future.
 
 = I got a specific question related to this plugin... What could I do? =
 
@@ -58,7 +58,7 @@ Why not posting your request in this forum:
 
 = I think you're a genius & I want you to be the father of my children. =
 
-*Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite ...
+*Well*... If you're actually a sexy blond woman with lot of money and a big car I believe we can form a real complete couple: I offer quite the opposite...
 
 
 == Screenshots ==
@@ -67,12 +67,17 @@ Why not posting your request in this forum:
 
 
 == Upgrade Notice ==
- 
-= 2.0 =
-MAJOR UPDATE: New user interface + New "related videos" option + Minor bugs fixed! PLEASE UPGRADE.
+
+= 2.0.1 =
+MINOR UPDATE: Code optimisation/preparation for next major upgrade (*v3*), slight UI revisions & updated information (*mainly for the Wordpress.org repository*). PLEASE UPGRADE.
 
 
 == Changelog ==
+
+= 2.0.1 =
+* Code optimisation/preparation for next major upgrade (*v3*)
+* Slight UI revisions
+* Updated information (mainly for the Wordpress.org repository)
 
 = 2.0 =
 * New user interface
@@ -125,21 +130,29 @@ MAJOR UPDATE: New user interface + New "related videos" option + Minor bugs fixe
 
 
 == Limitations ==
- 
+
 * **Internet Explorer is not a natural friend of YouTube...** Every versions of this browser, *from 6 all the way up to 9*, have different bugs & even more ways to deal with YouTube videos. So in order to push a video to everyone this plugin will provide a player to Internet Explorer effectively but without other parameters than width & height. All the rest will be the default state of a "*regular*" YouTube video player. A future version should solve those issues by serving an all javascript player to this browser.
+ 
+* The tests on *Wordpress 3.9.1* were quick, some features may be not working but this should not affect the plugin responsiveness. All bases will be covered in the next major release of the plugin (*v3*).
 
 * Some *Wordpress* themes that already have a bunch of shortcodes may cause conflicts with this one. Usually a quick look in the doc of your theme & you'll find a way of injecting "*raw*" codes in your post without triggering any presets options.
 
 
 == TO DO ==
+
+**In the plan for the next major upgrade** (*v3*) **:**
+ 
+*  Rewrite the core of the display functions. 
+
+*  A simpler/quicker way of inserting the shortcode. 
+
+*  HTML5 implementation.
+
+**In the back of my mind...**
  
 *  Develop some «height & width» presets.
 
 *  Google Analytics integration.
-
-*  French translation.
-
-*  Even More options.
 
 *  Take over the world. 
 
@@ -148,4 +161,4 @@ Not necessarily in that order...
 
 == License ==
 
-This plugin (*and all its related files*) falls under the **[GNU GENERAL PUBLIC LICENSE v3](http://pxsol.info/rohPSr "GNU General Public License - Version 3")**. 
+This plugin (*and all its related files*) falls under the **[GNU GENERAL PUBLIC LICENSE v3](http://www.gnu.org/licenses/gpl-3.0.txt "GNU General Public License - Version 3")**. 
